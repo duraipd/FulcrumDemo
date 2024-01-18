@@ -86,3 +86,12 @@ body {
         padding: 20px;
     }
 }
+
+.pd{
+  
+    display:flex;
+    justify-content: start;
+    float: right;
+  
+    /* margin-left: -180px; */
+}
