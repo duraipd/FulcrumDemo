@@ -1,6 +1,6 @@
 .nacolor {
-    background-color: rgb(188, 186, 189);
-}
+    background-color: rgb(26, 23, 27);
+ }  
 
 .abdiv {
     border: 1px solid;
@@ -23,7 +23,7 @@
 }
 
 .a3 {
-    background-color: rgb(79, 78, 78);
+    /* background-color: rgb(79, 78, 78); */
     border: 1px solid;
     height: 170px;
 

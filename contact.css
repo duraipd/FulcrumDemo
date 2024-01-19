@@ -36,11 +36,15 @@
     padding-top: 20px;
     bottom: 0;
     width: 100%;
-    height: 70px;
+    height: 65px;
     text-align: center;
-    background-color: #adacac;;
+    background-color: #adacac;
     color: #fff;
    
+}
+.back_color{
+    bottom: 0;
+    background-color:white ;
 }
 #footer a {
     color: #000; 
