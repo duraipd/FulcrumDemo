@@ -1,14 +1,15 @@
 .home_img{
     background-image: url(image/pexels-designecologist-1389460.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 683px;
-    /* width: 100%; */
+      background-size: cover;
+      background-repeat: no-repeat; 
+       height: 900px;
+     /* width: 100%;  */
   
 }
 .navclr{
     background-color: #f8ebd3;
 }
+
 
 body {
     font-family: 'Arial', sans-serif;
@@ -85,4 +86,12 @@ body {
     #footer {
         padding: 20px;
     }
+
+.pd{
+  
+  display:flex;
+  justify-content: start;
+  float: right;
+
+  /* margin-left: -180px; */
 }
