@@ -1,160 +1,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="bootstrap/jquery-3.6.3.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="about.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/jquery-3.6.3.min.js"></script>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light justify-content-between sticky-top" id="neubar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo.png" height="50" class="b" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <nav class="navbar navbar-expand-md navbar-light justify-content-between sticky-top" id="neubar">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="image/logo.png" height="60" class="b" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto  ">
+          <li class="nav-item">
+            <a class="nav-link mx-2 active" aria-current="page" href="#"
+              style="font-weight: bolder; font-size: large;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="about.html" style="font-weight: bolder ;font-size: large;">About</a>
+          </li>
 
-            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto  ">
-                    <li class="nav-item">
-                        <a class="nav-link mx-2 active" aria-current="page" href="index.html"
-                            style="font-weight: bolder; font-size: larger;">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="about.html"
-                            style="font-weight: bolder ;font-size: larger;">About</a>
-                    </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link mx-2 dropdown-toggle" href="products.html" id="navbarDropdownMenuLink"
+              aria-expanded="false" style="font-weight: bolder;font-size: large;">
+              Products
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <div class="Container_Products">
+                  <div class="row col-sm-12 ">
+                    <div class="col-sm -3">
+                      <UL>
+                        <span class="Head_cont">Mens</span>
+                        <li> <a href="#">Shirts</a> </li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                    <div class="col-sm -3">
 
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link mx-2 dropdown-toggle" href="products.html" id="navbarDropdownMenuLink"
-                            aria-expanded="false" style="font-weight: bolder;font-size: larger;">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                            <li>
-                                <div class="Container_Products">
-                                    <div class="row col-sm-12 ">
-                                        <div class="col-sm -3">
-                                            <UL>
-                                                <span class="Head_cont">Mens</span>
-                                                <li> <a href="#">Shirts</a> </li>
-                                                <li>Shirts</li>
-                                            </UL>
-                                        </div>
-                                        <div class="col-sm -3">
+                      <UL>
+                        <span class="Head_cont">Womens</span>
+                        <li>Shirts</li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                    <div class="col-sm-3">
 
-                                            <UL>
-                                                <span class="Head_cont">Womens</span>
-                                                <li>Shirts</li>
-                                                <li>Shirts</li>
-                                            </UL>
-                                        </div>
-                                        <div class="col-sm-3">
-
-                                            <UL>
-                                                <span class="Head_cont">Babies</span>
-                                                <li>Shirts</li>
-                                                <li>Shirts</li>
-                                            </UL>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <UL>
-                                                <span class="Head_cont"> Asscessories</span>
-                                                <li>Shirts</li>
-                                                <li>Shirts</li>
-                                            </UL>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-
-                        </ul>
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="contact.html"
-                            style="font-weight: bolder; font-size: larger;">Contact Us</a>
-                    </li>
-            </div>
-        </div>
-
-    </nav>
-    <div class="row">
-        <div class="col-md-12 home_img ">
-        </div>
-    </div>
-
-
-    <div>
-        <img src="image/bg1.jpg" class="img-1">
-    </div>
-
-    </div>
-    <div class="main_card">
-        <div class="row1">
-            <div class="card shadow p-2 mb-5 bg-white rounded" style="width: 400px;">
-                <img class="card-img-top a3" src="image/Reddress.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title"
-                        style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color: rgb(19, 18, 18);">
-                        Who We Are</h5>
-                    <p class="card-text"
-                        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Empire
-                        Clothing is a MSME certified garment manufacturing company based out of
-                        Tirupur which is one of the India’s leading garment manufacturing hubs. We commenced operations
-                        from
-                        2017 and our well-equipped production unit spread across 3000 sq. feet with a production
-                        capacity of
-                        25000 pieces per month. With our contemporary machinery and skilled work force, we have been
-                        catering to the renowned brands across the globe.</p>
-
+                      <UL>
+                        <span class="Head_cont">Babies</span>
+                        <li>Shirts</li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                    <div class="col-sm-3">
+                      <UL>
+                        <span class="Head_cont"> Asscessories</span>
+                        <li>Shirts</li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="contact.html" style="font-weight: bolder; font-size: large;">Contact Us</a>
+          </li>
+      </div>
+    </div>
 
-            <div class="card shadow p-2 mb-5 bg-white rounded" style="width: 400px;">
-                <img class="card-img-top a3" src="image/baby-garment.webp" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title"
-                        style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color: rgb(23, 23, 23);">
-                        Our Mission</h5>
-                    <p class="card-text"
-                        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">We have a
-                        passionate team who always strides towards the best-in-class quality and
-                        timely delivery for all our customers. We strengthen our capabilities year after year through
-                        teamwork and the passion to excel. We as an enterprise always committed to the satisfaction of
-                        our
-                        customers.</p>
+  </nav>
+  <div class="row">
+    <div class="col-md-12 home_img ">
+    </div>
+  </div>
 
-                </div>
-            </div>
 
-            <div class="card shadow p-2 mb-5 bg-white rounded" style="width: 400px;">
-                <img class="card-img-top a3" src="image/mens dress.avif" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title"
-                        style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color: rgb(21, 20, 20);">
-                        Our Vision</h5>
-                    <p class="card-text"
-                        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">To be the
-                        most innovative, sustainable and socially responsible garment
-                        manufacturer through our unique approach to customer service, manufacturing excellence and
-                        employee
-                        engagement.</p>
+  <div>
+    <img src="image/bg1.jpg" class="img-1">
+  </div>
 
-                </div>
-            </div>
+  </div>
+  <div class="main_card">
+    <div class="row1">
+      <div class="card shadow p-2 mb-5 bg-white rounded" style="width: 400px;">
+        <img class="card-img-top a3" src="image/Reddress.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"
+            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color: rgb(19, 18, 18);">
+            Who We Are</h5>
+          <p class="card-text" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            Empire
+            Clothing is a MSME certified garment manufacturing company based out of
+            Tirupur which is one of the India’s leading garment manufacturing hubs. We commenced operations
+            from
+            2017 and our well-equipped production unit spread across 3000 sq. feet with a production
+            capacity of
+            25000 pieces per month. With our contemporary machinery and skilled work force, we have been
+            catering to the renowned brands across the globe.</p>
+
         </div>
+      </div>
+
+      <div class="card shadow p-2 mb-5 bg-white rounded" style="width: 400px;">
+        <img class="card-img-top a3" src="image/baby-garment.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"
+            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color: rgb(23, 23, 23);">
+            Our Mission</h5>
+          <p class="card-text" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">We
+            have a
+            passionate team who always strides towards the best-in-class quality and
+            timely delivery for all our customers. We strengthen our capabilities year after year through
+            teamwork and the passion to excel. We as an enterprise always committed to the satisfaction of
+            our
+            customers.</p>
+
+        </div>
+      </div>
+
+      <div class="card shadow p-2 mb-5 bg-white rounded" style="width: 400px;">
+        <img class="card-img-top a3" src="image/mens dress.avif" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"
+            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color: rgb(21, 20, 20);">
+            Our Vision</h5>
+          <p class="card-text" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">To
+            be the
+            most innovative, sustainable and socially responsible garment
+            manufacturer through our unique approach to customer service, manufacturing excellence and
+            employee
+            engagement.</p>
+
+        </div>
+      </div>
     </div>
-    </div>
+  </div>
+  </div>
 
 </body>
 
