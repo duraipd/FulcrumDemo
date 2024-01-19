@@ -17,6 +17,20 @@ body {
    
 }
  
+#Container_Products {
+    margin-left: 50px;
+    margin-right: 50px;
+    visibility: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+
+.second {
+    padding-top: 15px;
+    text-align: justify;
+}
  
 .navclrC {
     background-color: #adacac;;
@@ -35,6 +49,7 @@ body {
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    margin-top: -200px;
 }
  
 .card-body {
@@ -94,4 +109,4 @@ body {
   float: right;
 
   /* margin-left: -180px; */
-}
+}}
