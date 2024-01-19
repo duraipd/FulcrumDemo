@@ -1,100 +1,69 @@
-
-
-.nacolor{
-    background-color:rgb(188, 186, 189);
+.nacolor {
+    background-color: rgb(188, 186, 189);
 }
 
-.abdiv{
+.abdiv {
     border: 1px solid;
-    /* margin-left: 0px; */
+
 }
-.img-1{
+
+.img-1 {
     height: 400px;
     width: 100%;
-    /* filter: blur(.5px); */
-    /* position: absolute; */
-   
+
 }
-.row{
+
+.row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: -250px;
-    width: fit-content;
-    margin-left: 300px;
-     column-gap: 40px; 
-     /* position: relative; */
-   
+
+    column-gap: 40px;
+
+
 }
-.a3{
+
+.a3 {
     background-color: rgb(79, 78, 78);
     border: 1px solid;
     height: 170px;
-    
-    
-    
+
+
+
 }
 
-.card{
+.card {
     border-radius: 4px;
     background: #f9f9f9;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  padding: 14px 80px 18px 36px;
-  cursor: pointer;
-  margin-left: 70px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+
 }
 
-.card:hover{
-     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0,0,0,.06);
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
-/* .ab{
-   
-    margin-top: 50px;
-    margin-left: 40%;
-    border: 1px solid;
-    height: 50px;
-    width: 150px;
-   
-    
-}
-.para{
-    margin-left: 150px;
-}
-.card{
-    border: 1px solid;
-    
+@media only screen and (max-width: 768px) {
+    .row {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+
+    }
+
+    .card {
+        margin-left: 11px;
+    }
 }
 
-
-
-
-
-.img-2{
-    height: 400px;
-    width: 100%;
+.main_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.conts{
-    margin-top: -350px;
-    margin-left: 20%;
-}
-
-.cont{
-    margin-top: -300px;
-    margin-left: 40%;
-   
-}
-.aj{
-    margin-right: -20px;
-}
-
- */ 
-
- /* body {
-    overflow: hidden; }
-*/
-  
-
-
-
