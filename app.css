@@ -9,67 +9,63 @@
 /* .navclr{
     background-color: #f8ebd3;
 } */
+
 /* #neubar{
     background-color: rgb(244, 237, 207);
 } */
 
-
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-image: url(image/image.jpg);
-   
+  font-family: "Arial", sans-serif;
+  background-image: url(image/image.jpg);
 }
- 
+
 #Container_Products {
-    margin-left: 50px;
-    margin-right: 50px;
-    visibility: hidden;
-    border: 1px solid black;
-    border-radius: 10px;
-
+  margin-left: 50px;
+  margin-right: 50px;
+  visibility: hidden;
+  border: 1px solid black;
+  border-radius: 10px;
 }
-
 
 .second {
-    padding-top: 15px;
-    text-align: justify;
+  padding-top: 15px;
+  text-align: justify;
 }
- 
+
 .navclrC {
-    background-color: #adacac;;
+  background-color: #adacac;
 }
- 
+
 .navbar-brand {
-    color: #000;
+  color: #000;
 }
- 
+
 .nav-link {
-    color: #000 !important;
+  color: #000 !important;
 }
- 
- 
+
 .card {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-top: -200px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: -200px;
 }
- 
+
 .card-body {
-    text-align: left;
+  text-align: left;
 }
- 
- 
 
-
- 
- 
-
-.pd{
-  
-  display:flex;
+.pd {
+  display: flex;
   justify-content: start;
   float: right;
-
+}
+.nju {
+  font-size: 50px;
+  margin: 0 150px;
+  margin-top: 10px;
+}
+.apps {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
