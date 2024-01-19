@@ -1,14 +1,18 @@
-.home_img{
+/* .home_img{
     background-image: url(image/pexels-designecologist-1389460.jpg);
       background-size: cover;
       background-repeat: no-repeat; 
        height: 900px;
-     /* width: 100%;  */
+    
   
-}
-.navclr{
+} */
+/* .navclr{
     background-color: #f8ebd3;
+} */
+#neubar{
+    background-color: rgb(244, 237, 207);
 }
+
 
 
 body {
@@ -83,24 +87,6 @@ body {
 }
  
  
-.map {
-    padding: 0;
-    margin-top: 35px;
-}
- 
- 
-@media (max-width: 768px) {
-    .navbar-collapse {
-        background-color: #adacac;;
-    }
- 
-    .nav-link {
-        color: #000 !important;
-    }
- 
-    #footer {
-        padding: 20px;
-    }
 
 .pd{
   
@@ -108,5 +94,4 @@ body {
   justify-content: start;
   float: right;
 
-  /* margin-left: -180px; */
-}}
+}
