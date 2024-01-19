@@ -24,13 +24,15 @@
 
 .a3 {
     /* background-color: rgb(79, 78, 78); */
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 170px;
 
 
 
 }
-
+.abou_img{
+    filter: blur(3px);
+}
 
 .card {
     border-radius: 4px;
