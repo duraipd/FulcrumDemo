@@ -1,0 +1,65 @@
+
+
+.nacolor{
+    background-color:rgb(188, 186, 189);
+}
+
+.abdiv{
+    border: 1px solid;
+    /* margin-left: 0px; */
+}
+.ab{
+   
+    margin-top: 50px;
+    margin-left: 40%;
+    border: 1px solid;
+    height: 50px;
+    width: 150px;
+   
+    
+}
+.para{
+    margin-left: 150px;
+}
+.card{
+    border: 1px solid;
+    
+}
+
+.a3{
+    background-color: rgb(79, 78, 78);
+    border: 1px solid;
+    height: 200px;
+    
+    
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -200px;
+    /* column-gap: 40px; */
+   
+}
+.img-1{
+    height: 400px;
+    width: 100%;
+    filter: blur(3px);
+   
+}
+.img-2{
+    height: 400px;
+    width: 100%;
+}
+.conts{
+    margin-top: -350px;
+    margin-left: 20%;
+}
+
+.cont{
+    margin-top: -300px;
+    margin-left: 40%;
+   
+}
+.aj{
+    margin-right: -20px;
+}
