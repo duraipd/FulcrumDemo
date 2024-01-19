@@ -8,10 +8,11 @@
     .home_content h1{
       font-family: myfirstfont;
       font-size: 125px;
-      background: linear-gradient(to right, #f32170, 
+      color: #ffa500;
+      /* background: linear-gradient(to right, #f32170, 
       #ff6b08, #cf23cf, #eedd44); 
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent; */
     }
     .home_para{
       font-size: 20px;
