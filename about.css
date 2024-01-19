@@ -8,7 +8,48 @@
     border: 1px solid;
     /* margin-left: 0px; */
 }
-.ab{
+.img-1{
+    height: 400px;
+    width: 100%;
+    /* filter: blur(.5px); */
+    /* position: absolute; */
+   
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+    width: fit-content;
+    margin-left: 300px;
+     column-gap: 40px; 
+     /* position: relative; */
+   
+}
+.a3{
+    background-color: rgb(79, 78, 78);
+    border: 1px solid;
+    height: 170px;
+    
+    
+    
+}
+
+.card{
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* .ab{
    
     margin-top: 50px;
     margin-left: 40%;
@@ -26,26 +67,10 @@
     
 }
 
-.a3{
-    background-color: rgb(79, 78, 78);
-    border: 1px solid;
-    height: 200px;
-    
-    
-}
-.row{
-    display: flex;
-    justify-content: space-around;
-    margin-top: -200px;
-    /* column-gap: 40px; */
-   
-}
-.img-1{
-    height: 400px;
-    width: 100%;
-    filter: blur(3px);
-   
-}
+
+
+
+
 .img-2{
     height: 400px;
     width: 100%;
@@ -63,3 +88,13 @@
 .aj{
     margin-right: -20px;
 }
+
+ */ 
+
+ /* body {
+    overflow: hidden; }
+*/
+  
+
+
+
