@@ -9,9 +9,10 @@
 /* .navclr{
     background-color: #f8ebd3;
 } */
-#neubar {
-  background-color: rgb(244, 237, 207);
-}
+
+/* #neubar{
+    background-color: rgb(244, 237, 207);
+} */
 
 body {
   font-family: "Arial", sans-serif;
@@ -52,30 +53,6 @@ body {
 
 .card-body {
   text-align: left;
-}
-
-#footer {
-  position: fixed;
-  padding-top: 20px;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-  text-align: center;
-  background-color: #adacac;
-  color: #fff;
-}
-#footer a {
-  color: #000;
-  transition: color 0.3s;
-}
-
-#footer a:hover {
-  color: #fff;
-}
-
-.icon {
-  font-size: 24px;
-  margin: 0 10px;
 }
 
 .pd {

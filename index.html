@@ -6,92 +6,252 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="contact.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"></script>
-<script src="bootstrap/jquery-3.6.3.min.js"></script>
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://kit.fontawesome.com/0b0539b014.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
- 
-    <nav class="navbar navbar-expand-md navbar-light justify-content-between sticky-top" id="neubar">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="image/logo.png" height="60" class="b" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto  ">
-              <li class="nav-item">
-                <a class="nav-link mx-2 active" aria-current="page" href="#" style="font-weight: bolder; font-size: larger;">Home</a>
+
+  <nav class="navbar navbar-expand-md navbar-light justify-content-between sticky-top" id="neubar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo.png" height="50" class="b" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto  ">
+          <li class="nav-item">
+            <a class="nav-link mx-2 active" aria-current="page" href="#"
+              style="font-weight: bolder; font-size: large;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="about.html" style="font-weight: bolder ;font-size: large;">About</a>
+          </li>
+
+          <li class="nav-item dropdown ">
+            <a class="nav-link mx-2 dropdown-toggle" href="products.html" id="navbarDropdownMenuLink"
+              aria-expanded="false" style="font-weight: bolder;font-size: large;">
+              Products
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <div class="Container_Products">
+                  <div class="row col-sm-12 ">
+                    <div class="col-sm -3">
+                      <UL>
+                        <span class="Head_cont">Mens</span>
+                        <li> <a href="#">Shirts</a> </li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                    <div class="col-sm -3">
+
+                      <UL>
+                        <span class="Head_cont">Womens</span>
+                        <li>Shirts</li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                    <div class="col-sm-3">
+
+                      <UL>
+                        <span class="Head_cont">Babies</span>
+                        <li>Shirts</li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                    <div class="col-sm-3">
+                      <UL>
+                        <span class="Head_cont"> Asscessories</span>
+                        <li>Shirts</li>
+                        <li>Shirts</li>
+                      </UL>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="about.html" style="font-weight: bolder ;font-size: larger;">About</a>
-              </li>
-             
-              <li class="nav-item dropdown ">
-                <a class="nav-link mx-2 dropdown-toggle" href="products.html" id="navbarDropdownMenuLink"  aria-expanded="false" style="font-weight: bolder;font-size: larger;" >
-                  Products
-                </a>
-                <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                    <li>
-                        <div class="Container_Products">
-                        <div class="row col-sm-12 ">
-                        <div class="col-sm -3">
-                          <UL>
-                            <span class="Head_cont">Mens</span>
-                            <li> <a href="#">Shirts</a> </li>
-                            <li>Shirts</li>
-                          </UL>
-                        </div>
-                        <div class="col-sm -3">
-             
-                            <UL>
-                               <span class="Head_cont">Womens</span>
-                              <li>Shirts</li>
-                              <li>Shirts</li>
-                            </UL>
-                          </div>
-                          <div class="col-sm-3">
-                             
-                            <UL>
-                             <span class="Head_cont">Babies</span>
-                              <li>Shirts</li>
-                              <li>Shirts</li>
-                            </UL>
-                          </div>
-                          <div class="col-sm-3">
-                            <UL>
-                             <span class="Head_cont"> Asscessories</span>
-                              <li>Shirts</li>
-                              <li>Shirts</li>
-                            </UL>
-                          </div>
-                        </div>
-                        </div>
-                    </li>
-                    
-              
+
+
             </ul>
-            <li class="nav-item">
-                <a class="nav-link mx-2" href="contact.html" style="font-weight: bolder; font-size: larger;">Contact Us</a>
-                </li>
-          </div>
-        </div>
-       
-      </nav>
-  <div class="row">
-
-    <div class="col-md-12 home_img ">
-
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="contact.html" style="font-weight: bolder; font-size: large;">Contact Us</a>
+          </li>
+      </div>
     </div>
 
+  </nav>
+  <section class="j4">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/luke-chesser-pJadQetzTkI-unsplash.jpg" class="d-block w-100" alt="" height="450px"
+            width="100%" class="j1">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="home_content">
+              <h1>Empire Clothing</h1>
+
+            </div>
+            <p class="home_para ">"You can have anything you want. If you dress for it." — Edith Head</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/luke-chesser-pJadQetzTkI-unsplash.jpg" class="d-block w-100" alt="" height="450px"
+            width="100%" class="j1">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="home_content">
+              <h1>Empire Clothing</h1>
+            </div>
+            <p class="home_para">"I don't design clothes. I design dreams." — Ralph Lauren</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/luke-chesser-pJadQetzTkI-unsplash.jpg" class="d-block w-100" alt="" height="450px"
+            width="100%" class="j1">
+          <div class="carousel-caption d-none d-md-block">
+
+            <div class="home_content">
+              <h1>Empire Clothing</h1>
+            </div>
+            <p class="home_para">"People will stare. Make it worth their while." — Harry Winston
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <div class="how-section1">
+    <div class="row ">
+      <div class="col-md-6 how-img">
+        <img src="image/Home_design.jpg" class="Home_imgstyle"  alt="" />
+      </div>
+      <div class="col-md-6">
+        <h4 class="animate__animated animate__backInRight">Design Studio</h4>
+
+        <p class="text-muted"style="text-align: justify;">Integrated computerized sample section with the daily output capacity of 50 pieces for PP sample approval and
+          customer self-fit. Our sample section is equipped with Optitex automatic CAD machine which has the ability to hand any type of garments.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="animate__animated animate__backInLeft">Cutting to Stiching</h4>
+
+        <p class="text-muted" style="text-align: justify;">The key to producing fine garments lies in cutting. We have Marker Mechanism with CAD
+          cutting systems to deliver accuracy in cuts. Our infrastructure facilitates cuts in both standards and
+          customized size. Automated fabric spreading machines for open width and woven fabrics are also present. Our
+          dexterous craftsmen ensure exactness in size standards as well as minimization of waste.
+          Our sewing division has 60 sewing machines of Juki, Jack, Siruba, and Pegasus makes installed across
+          streamlined production unit. The division is designed to handle stitches of different types and styles. Our
+          skilled workers are well adapted to deliver quality garments. We are capable of producing 25,000
+          pieces a month.</p>
+      </div>
+      <div class="col-md-6 how-img">
+        <img src="image/Sticthing.jpeg" class="Home_imgstyle"  alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 how-img">
+        <img src="image/Prinitng.png"  class="Home_imgstyle" alt="" />
+      </div>
+      <div class="col-md-6">
+        <h4 class="animate__animated animate__backInRight">Printing</h4>
+
+        <p class="text-muted" style="text-align: justify;">Printing is a key area for leaving a lasting impression. 
+          We collaborates with printing factory which are having the latest technology to perfect our printing.  
+          Our partners in printing are having ISO, SEDEX ,DISNEY, WRAP, & GOT Certificates. 
+          Factories have Rotary Printings systems which can print around one lakh metres/day with customized print options available. 
+          We are able to offer value additions to our customers.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="animate__animated animate__backInLeft">Embroidery</h4>
+
+        <p class="text-muted" style="text-align: justify;">Intricate embroidery works are a value addition we provide our customers with.  We collaborates with Embroidery partners who is equipped with 15 imported machines offering high precision and pace. The machines make it possible to design embellishments, motifs and logo designs on the garments. With the best kind of equipment’s 
+          in place, we are capable of delivering 6 million complex stiches per day.
+
+        </p>
+      </div>
+      <div class="col-md-6 how-img">
+        <img src="image/Embrodory.png"  class="Home_imgstyle" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 how-img">
+        <img src="image/Quality check.webp" class="Home_imgstyle" alt="" />
+      </div>
+      <div class="col-md-6">
+        <h4 class="animate__animated animate__backInRight">Quality Checking</h4>
+
+        <p class="text-muted" style="text-align: justify;">We have adopted Total Quality Management (TQM) initiative in our processes, functioning and management. Every measure we take is a symbol of our commitment to meet international quality standards. A quality control department is in place to make sure each step of the manufacturing process passed rigorous standards. The team monitors the quality in our production unit. Quality is controlled at every stage from style and fit approvals through size wet, pilot batch, initial, inline and final inspections. We follow AQL 1.5 to 2.5 Level quality standards (as per the buyer’s option) 
+          in our production unit.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="animate__animated animate__backInLeft">Washing</h4>
+
+        <p class="text-muted" style="text-align: justify;">Washing is important to improve the marketability and texture of garments. We collaborates with washing unit which is equipped with 6 washing machines and a capacity to wash 25,000 garments per day. We have multiple wash options such as silicon/stone and enzyme, bio-polish etc., 
+          besides, water is treated at both ends making it an eco-friendly one as well.</p>
+      </div>
+      <div class="col-md-6 how-img">
+        <img src="image/Washing.webp" class="Home_imgstyle" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 how-img">
+        <img src="image/ironing.webp"class="Home_imgstyle" alt="" />
+      </div>
+      <div class="col-md-6">
+        <h4 class="animate__animated animate__backInRight">Ironing & Packing</h4>
+
+        <p class="text-muted" style="text-align: justify;">In-house wood fired boilers provide steam at required temperatures to press and dry our garments. The garments are checked for the presence of metal using needle detector machines. We have conveyor and box systems where 100% needle detecting is done. After ensuring the garments are metal-free, packing with in-house stuffing begins. 
+          The products are well-stacked to prevent damages during transit.</p>
+      </div>
+    </div>
   </div>
 
+
+  <footer id="footer" class="text-center mt-3">
+    <a href="https://www.facebook.com/vino.vinoth.9480?mibextid=ZbWKwL">
+      <i class="fab fa-facebook-square icon"></i></a>
+    <a href="https://www.instagram.com/vino_rr?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D"><i
+        class="fa-brands fa-square-instagram icon"></i></a>
+    <a
+      href="https://www.linkedin.com/in/vino-rr-3160bb253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+      <i class="fa-brands fa-linkedin icon"></i></a>
+    <a href="https://wa.me/qr/PHOLQVLA7DHLN1"><i class="fa-brands fa-square-whatsapp icon"></i></a>
+  </footer>
 
 
 </body>
