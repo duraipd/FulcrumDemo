@@ -41,11 +41,9 @@
     background-color: #adacac;
     color: #fff;
    
+   
 }
-.back_color{
-    bottom: 0;
-    background-color:white ;
-}
+
 #footer a {
     color: #000; 
     transition: color 0.3s;
