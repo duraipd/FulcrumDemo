@@ -2,6 +2,7 @@
     text-align: center;
     text-shadow: 1.5px 1.5px ;
     padding-top: 20px;
+    color: rgba(0,85,52,255);
  
 }
 
@@ -96,7 +97,7 @@
   }
   
   .text {      
-    color: black;
+    color: rgba(0,85,52,255);
     font-weight: bolder;
     padding-top: 195px;
     border-radius: 5px;
