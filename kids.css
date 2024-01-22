@@ -1,4 +1,5 @@
-.women{
+
+.baby{
     text-align: center;
     text-shadow: 1.5px 1.5px;
     padding-top: 20px;
@@ -71,6 +72,7 @@
   
   .card:hover {
     transform: scale(1.05);
+    
   }
   
   .middle {
@@ -91,7 +93,7 @@
   }
 
   .card:hover.card img{
-    opacity: 0.3;
+    opacity: 0.5;
   }
   
   .text {      
@@ -124,5 +126,5 @@
  
 #footer a:hover {
     color: #fff;
+
 }
-  
