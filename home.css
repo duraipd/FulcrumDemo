@@ -36,6 +36,9 @@
   color: #3931af;
   font-size: 20px;
 }
+.j1{
+  filter: blur(1px);
+}
 
 .how-section1 .row {
   margin-top: 10%;
