@@ -1,4 +1,14 @@
+.navclrC {
+  background-color: #adacac;
+}
 
+.navbar-brand {
+  color: #000;
+}
+
+.nav-link {
+  color: #000 !important;
+}
 .men{
     text-align: center;
     text-shadow: 1.5px 1.5px;
@@ -92,7 +102,7 @@
   }
 
   .card:hover.card img{
-    opacity: 0.;
+    opacity: 0.4;
   }
   
   .text {      
