@@ -8,7 +8,7 @@
     .home_content h1{
       font-family: myfirstfont;
       font-size: 125px;
-      color: #ffa500;
+      color: rgba(0,85,52,255);
       /* background: linear-gradient(to right, #f32170, 
       #ff6b08, #cf23cf, #eedd44); 
       -webkit-background-clip: text;
@@ -32,7 +32,7 @@
       padding: 10%;
     }
     .how-section1 h4{
-      color: #ffa500;
+      color:rgba(0,85,52,255);
       font-weight: bold;
       font-size: 30px;
     }
