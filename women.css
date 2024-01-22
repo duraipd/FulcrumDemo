@@ -1,3 +1,15 @@
+.navclrC {
+  background-color: #adacac;
+}
+
+.navbar-brand {
+  color: #000;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
 .women{
     text-align: center;
     text-shadow: 1.5px 1.5px;
@@ -91,7 +103,7 @@
   }
 
   .card:hover.card img{
-    opacity: 0.5;
+    opacity: 0.4;
   }
   
   .text {      
