@@ -15,6 +15,18 @@
   a.navbar-brand {
     color: #454545
   }
+  .logo_design{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0,85,52,255);
+    font-weight: 250;
+    font-size: 23px;
+  }
+  .logo_content{
+    font-size: 22px; 
+    font-family: 'Times New Roman', Times, serif; 
+   
+  }
+
   
   
   .dropdown:hover .dropdown-menu {
