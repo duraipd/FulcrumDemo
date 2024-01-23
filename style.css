@@ -45,11 +45,11 @@
     top: 20px;
   }
   
-  .Container_Products ul li a:hover {
+  .Container_Products ul  a:hover {
     color: gray;
   }
   
-  .Container_Products ul li a {
+  .Container_Products ul  a {
     color: black;
     text-decoration: none;
   }
