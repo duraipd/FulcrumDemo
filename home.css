@@ -108,3 +108,43 @@
     align-items: center;
   }
 }
+
+
+.Container_Products {
+  text-align: center;
+}
+
+
+.Container_Products UL {
+  display: inline-block;
+  list-style-type: none; 
+  padding: 0; 
+}
+
+
+.Container_Products UL li {
+  text-align: left; 
+}
+
+
+
+/* 
+.Container_Products {
+  text-align:left;
+  padding: 0;
+}
+
+.Container_Products ul {
+  display: inline-block;
+  list-style-type: none; 
+  padding: 0; 
+  text-align: right;
+}
+
+
+.Container_Products ul li {
+  margin-bottom: 10px; 
+} */
+
+
+
